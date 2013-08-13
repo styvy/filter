@@ -2,7 +2,7 @@
 
 Class to filter the data.
 
-
+<br />
 #### Usage
 
 Initialize:
@@ -37,14 +37,15 @@ $filter->filter();
 </pre>
 
 
-#### Get Data
+<br />
+#### Geting the Data
 
-Data array:
+As array:
 <pre>
 var_dump($filter->getData());
 </pre>
 
-or ArrayAccess interface:
+Or ArrayAccess interface:
 <pre>
 echo $filter['firstname'];
 echo $filter['address'];
