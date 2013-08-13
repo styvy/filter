@@ -1,9 +1,14 @@
-Filter
-======
+# Filter
+
 
 Data Filtering Class
 
-**Usage**
+#### Usage
+
+Initialize:
+
++ Use all() method to add the filter(s) for all fields
++ Use add() method to add the filter(s) for one or more fields
 
 <pre><code>$filter = Filter::create($_POST)
 	->all(
@@ -23,7 +28,25 @@ Data Filtering Class
 				array('str_replace', array('123123', '', '#value'))
 			)
 		)
-	->filter()
 ;
-var_dump($filter->getData());
+
 </pre></code>
+
+And execute:
+<pre>
+$filter->filter();
+</pre>
+
+
+#### Get Data
+
+Data array:
+<pre>
+var_dump($filter->getData());
+</pre>
+
+or ArrayAccess interface:
+<pre>
+echo $filter['firstname'];
+echo $filter['address'];
+</pre>
