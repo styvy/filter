@@ -5,8 +5,7 @@ Data Filtering Class
 
 **Usage**
 
-<pre><code>
-$filter = Filter::create($_POST)
+<pre><code>$filter = Filter::create($_POST)
 	->all(
 		array('trim')
 	)
@@ -25,5 +24,6 @@ $filter = Filter::create($_POST)
 			)
 		)->filter()
 ;
+
 var_dump($filter->getData());
 </pre></code>
