@@ -27,5 +27,6 @@ $filter = Filter::create($_POST)
 
 	->filter()
 ;
+
 var_dump($filter->getData());
 </pre></code>
