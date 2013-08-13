@@ -24,9 +24,8 @@ $filter = Filter::create($_POST)
 				array('str_replace', array('123123', '', '#value'))
 			)
 		)
-	
+
 	->filter()
 ;
-		
 var_dump($filter->getData());
 </pre></code>
