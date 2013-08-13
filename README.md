@@ -22,8 +22,8 @@ Data Filtering Class
 				'MyClass::myFilter',
 				array('str_replace', array('123123', '', '#value'))
 			)
-		)->filter()
+		)
+	->filter()
 ;
-
 var_dump($filter->getData());
 </pre></code>
