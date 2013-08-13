@@ -11,7 +11,6 @@ class Filter implements ArrayAccess
 	
 	
 	
-	
 	/**
 	 * return new filter object
 	 * 
