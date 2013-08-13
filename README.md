@@ -1,7 +1,7 @@
 # Filter
 
+Class to filter the data.
 
-Data Filtering Class
 
 #### Usage
 
